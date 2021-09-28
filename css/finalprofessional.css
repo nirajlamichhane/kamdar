@@ -1,0 +1,55 @@
+.name{
+	width: 100%;
+	height: 100px;
+	background-color: #11AE83;
+}
+.name h4{
+	padding-top: 10px;
+	margin-left: 5%;
+}
+.name h2{
+	margin-left: 5%;
+	color:red;
+}
+.main{
+	text-align: center;
+	padding-top: 20px;
+
+}
+.main h3{
+	color: red;
+}
+.btnnn_3{
+	margin-top: 10px;
+	color: white;
+	background-color: #11AE83;
+	width: 80px;
+	height: 50px;
+	border: 1px solid black;
+
+}
+.card{
+	border-color :greenyellow;
+}
+p{
+	font-size: 25px;
+	color: #c4c4c4;
+	margin: 10px;
+}
+.btnnn_1{
+	width: 40%;
+	height: 50px;
+	border: 0px;
+	border-radius: 100px;
+	background-color:#11AE83 ;
+	color: white;
+}
+.btnnn_2{
+	width: 40%;
+	height: 50px;
+	float: right;
+	border: 0px;
+	border-radius: 100px;
+	background-color:black;
+	color: red;
+}

@@ -1,0 +1,41 @@
+a {
+	text-decoration: none;
+
+}
+
+.btnnn_1{
+	/*float: right;*/
+	margin-top: 5%;
+    border: none;
+    /*border-radius: 1rem;*/
+    padding: 2%;
+    background: #11AE83;
+    color: #fff;
+    font-weight: 600;
+    /*width: 20%;*/
+    cursor: pointer;
+
+}
+.btnnn_2{
+	float: right;
+	margin-top: 5%;
+    border: none;
+   /* border-radius: 1rem;*/
+    padding: 2%;
+    background:red;
+    color: #fff;
+    font-weight: 600;
+    /*width: 20%;*/
+    cursor: pointer;
+
+}
+.hire{
+    float: right;
+    color: gray;
+}
+/*#sorry{
+    color: red;
+}*/
+h2{
+    color: red;
+}

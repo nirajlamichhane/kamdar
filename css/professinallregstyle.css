@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width: 60px;    
+    height: 60px;
+   /* margin-left: 10px;*/
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.containers {
+    /* padding-right: 0px;
+    padding-left: 0px; */
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* align-items: stretch; */
+
+
+}
+
+
+
+.left__section {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 30%;
+    height:100%;
+    color: white;
+    text-align: center;
+    background-color: #11AE83;
+    /*border-radius: 0 50% 50% 0/0 100% 100% 0;*/
+    /* transform: scaleY(1.1); */
+
+
+}
+
+.logo__section {
+    justify-content: center;
+    width: 40%;
+    height: fit-content;
+    margin-top: 15px;
+    padding-top: 15px;
+
+
+}
+
+.login-regestration__section {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    top: 20%;
+}
+
+.login-regestration__heading {
+    width: 100%;
+    padding: 10px;
+    font-size: 28px;
+    margin: 20px 0px;
+}
+
+.Login-reg {
+
+    width: 35%;
+    height: fit-content;
+    margin-left: 38%;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    border: 1px solid;
+    padding-top: 5px;
+    border-radius: 25px;
+    padding-bottom: 5px;
+}
+
+.Login-reg:hover {
+    width: 35%;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(34, 255, 181);
+
+
+}
+
+.right__section {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+.right__section__top {
+    /*margin-top: 0px;*/
+    height: 15%;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.right__section__top__headingone {
+    color: #11AE83;
+    font-size: 48px;
+}
+
+.right__section__top__headingtwo {
+    color: gray;
+    size: 22px;
+}
+
+.User__form {
+    height: fit-content;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+.btnRegister {
+    margin-top: 5%;
+    border: none;
+    border-radius: 1.5rem;
+   /* padding: 2%;*/
+    background: #11AE83;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+
+.register-form {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-group {
+    margin-top: 5%;
+}
+
+.paraName {
+    color: #11AE83;
+}
+
+/* Login Form css */
+.left__section__login {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    background-color: #11AE83;
+}
+
+.welcome__description {
+    height: 50%;
+    margin-top: 30%;
+    text-align: center;
+
+
+}
+
+.description__heading {
+    font-size: 50px;
+}
+
+.Login-reg__login {
+
+    width: 35%;
+    height: fit-content;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 5px 20px;
+
+}
+
+
+/* login div */
+
+.loginBox {
+    margin-top: 30px !important;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 35px
+}
+
+.image {
+    width: 360px;
+    height: 280px
+}
+
+.border-line {
+    border-right: 1px solid #EEEEEE
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+.twitter {
+    background-color: #1DA1F2;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+.linkedin {
+    background-color: #2867B2;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+.google {
+    background-color: #F4B400;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+.line {
+    height: 1px;
+    width: 45%;
+    background-color: #E0E0E0;
+    margin-top: 10px
+}
+
+.or {
+    width: 10%;
+    font-weight: bold
+}
+
+.text-sm {
+    font-size: 14px !important
+}
+
+::placeholder {
+    color: #BDBDBD;
+    opacity: 1;
+    font-weight: 300
+}
+
+:-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+::-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+input,
+textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #11AE83;
+    outline-width: 0
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+a {
+    color: inherit;
+    cursor: pointer
+}
+
+.btn-blue {
+    background-color: #11AE83;
+    width: 150px;
+    color: #fff;
+    border-radius: 2px
+}
+
+.btn-blue:hover {
+    background-color: #000;
+    cursor: pointer
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: #11AE83
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .left__section {
+        display: inline-block;
+        width: 100%;
+        border-radius: 0%;
+        height: 48%;
+        flex-grow: 1;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .right__section {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 48%;
+        margin-left: 0px;
+    }
+
+    .User__form {
+        height: fit-content;
+        width: auto;
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        border: 1px solid black;
+    }
+
+    /* .logo__section {
+        ma
+    } */
+
+    .left__section__login {
+        display: inline-block;
+        /* width: 100%; */
+        height: 50%;
+        flex: 0 0 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .welcome__description {
+        height: 50%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+}

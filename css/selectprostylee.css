@@ -1,0 +1,24 @@
+#change{
+	float: right;
+	border: none;
+    border-radius: 1.5rem;
+   /* padding: 2%;*/
+    background: #11AE83;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    height: 50px;
+}
+#change:hover{
+	background: red;
+	color: white;
+
+}
+#rate{
+    float: right;
+    color: #11AE83;
+} 
+h2{
+    color: #11AE83;
+
+}

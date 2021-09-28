@@ -1,0 +1,21 @@
+h1{
+	color: #11AE83;
+}
+.card{
+	height: 300px;
+}
+.card-img-top{
+	height: 200px;
+	width:80% ;
+	padding-left: 30%;
+	padding-top: 10%;
+	border-radius: ;
+
+}
+#button {
+	float: right;
+	margin-top: -60px;
+}
+.card-title{
+	text-align: center;
+}

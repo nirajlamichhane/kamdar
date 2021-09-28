@@ -1,0 +1,45 @@
+body{
+	background-color: gray;
+}
+
+
+.main{
+	width: 60%;
+	height: 600px;
+	background-color: #EDEBEB;
+
+	margin-top: 5%;
+	margin-left: 20%;
+	text-align: center;
+	
+}
+#cross{
+	float: left;
+}
+/*h2{
+	margin-top: 10px;
+}*/
+input,textarea{
+	width: 50%;
+	
+}
+.form{
+	background-color: white;
+	width: 50%;
+	text-align: center;
+	margin-left: 25%;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	border: 1px solid red;
+}
+h3{
+	color: green;
+
+}
+#submitt{
+	background-color: green;
+	color: white;
+	width: 60px;
+	height: 30px;
+
+}
