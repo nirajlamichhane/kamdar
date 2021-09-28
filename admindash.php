@@ -17,6 +17,8 @@ require_once 'connection.php';
 	<?php 
     $result = mysqli_query($conn,"SELECT * FROM users where role='admin'");
     $main = mysqli_fetch_assoc($result);
+    asd
+    asdadadadasd
 
 
      $name = $main['fname'];
